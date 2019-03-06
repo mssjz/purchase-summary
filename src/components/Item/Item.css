@@ -1,0 +1,22 @@
+.Item{
+  display: flex;
+}
+
+.Image{
+  width: 30%;
+  height: 30%;
+}
+
+.New-price{
+  font-weight: bold;
+}
+
+.Qty{
+  float: right;
+}
+
+.Old-price{
+  color: gray;
+  font-weight: bold;
+  text-decoration: line-through;
+}

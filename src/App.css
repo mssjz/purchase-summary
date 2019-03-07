@@ -76,3 +76,18 @@
   border: 12px solid transparent;
   border-bottom-color: #ddd;
 }
+
+@media screen and (max-width) {
+  .App {
+    width: 100%;
+  }
+  .Dollors{
+    display: block;
+    float: none;
+  }
+
+  .Tooltip-text{
+    width: 100%;
+    left: 0;
+  }
+}

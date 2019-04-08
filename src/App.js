@@ -10,7 +10,7 @@ class App extends Component {
     this.props.getPrice();
   }
   render() {
-    const {subtotal, savings, tax, total, zip} = this.props.pricing;
+    const {subtotal, savings, tax, total, zip} = this.props.pricing;//short name
     let currSubtotal = (subtotal * this.props.discount).toFixed(2);
     let currTax = (currSubtotal * (tax / subtotal)).toFixed(2);
     let currTotal = Number(currSubtotal) + Number(currTax) - savings;

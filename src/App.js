@@ -8,7 +8,6 @@ import './App.css';
 class App extends Component {
   componentDidMount(){
     this.props.getPrice();
-    //console.log("test pull and diff in sample-git");
   }
   render() {
     const {subtotal, savings, tax, total, zip} = this.props.pricing;//short name

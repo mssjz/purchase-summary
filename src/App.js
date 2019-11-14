@@ -7,6 +7,7 @@ import './App.css';
 
 class App extends Component {
   componentDidMount(){
+    //test commit changes
     this.props.getPrice();
   }
   render() {

@@ -6,6 +6,7 @@ class Item extends Component{
   render(){
     const {item_name, quantity, img, price, new_price} = this.props.detail;
     let curr_price = (new_price * this.props.discount).toFixed(2);
+    //test another commit in item component
     return(<div className="Item">
       <img className="Image" src={img} alt="Leather Chair Red"/>
       <div class="Info">

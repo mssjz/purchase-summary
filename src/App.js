@@ -7,7 +7,6 @@ import './App.css';
 
 class App extends Component {
   componentDidMount(){
-    //test commit changes
     this.props.getPrice();
   }
   render() {
@@ -15,6 +14,7 @@ class App extends Component {
     let currSubtotal = (subtotal * this.props.discount).toFixed(2);
     let currTax = (currSubtotal * (tax / subtotal)).toFixed(2);
     let currTotal = Number(currSubtotal) + Number(currTax) - savings;
+    //test another commit in render part
     if (this.props.loading) {
       return <p className="Loading">Loading...</p>
     }

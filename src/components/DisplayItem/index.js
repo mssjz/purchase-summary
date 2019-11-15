@@ -16,6 +16,7 @@ class DisplayItem extends Component{
   }
 
   render(){
+    //use classnames class
     let toggleClasses = cx({
       'Hidden': !this.state.display,
       'Display': this.state.display
